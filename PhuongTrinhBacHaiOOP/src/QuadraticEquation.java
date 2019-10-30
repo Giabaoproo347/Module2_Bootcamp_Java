@@ -1,6 +1,5 @@
 public class QuadraticEquation {
     double a, b, c;
-    int x;
 
     public QuadraticEquation() {
     }
@@ -14,7 +13,12 @@ public class QuadraticEquation {
     public void Resolve1() {
         if (a == 0) {
             if (b == 0) {
-                System.out.println("Phương trình vô nghiệm");
+                if (c==0) {
+                    System.out.println("Phương trình vô số nghiệm");
+                    System.exit(0);
+                } else {
+                    System.out.println("Phương trình vô nghiệm");
+                }
             } else {
                 System.out.println("Phương trình có 1 nghiệm là: " + (-c / b));
             }
@@ -30,7 +34,7 @@ public class QuadraticEquation {
             x1 = (-b + Math.sqrt(delta)) / (2 * a);
             x2 = (-b - Math.sqrt(delta)) / (2 * a);
             System.out.println("Phương trình có 2 nghiệm là: " + x1 + "; x2 là: " + x2);
-        } else if (delta == 0) {
+        } else if (delta == 0 ) {
             x1 = -b / (2 * a);
             System.out.println("Phương trình có nghiệm kép là: x1 = x2 :" + x1);
         } else {
