@@ -1,3 +1,3 @@
-public abstract class Animal {
-    abstract String makeSound();
+ interface Animal {
+     String makeSound();
 }

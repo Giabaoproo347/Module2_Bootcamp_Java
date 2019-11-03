@@ -1,6 +1,7 @@
-public class Orange extends Fruit implements Edible {
+public class Orange implements Fruit {
+
     @Override
-    public String howToEat() {
-        return "Orange ăn được";
+    public String isGreen() {
+        return "Orange : yellow";
     }
 }

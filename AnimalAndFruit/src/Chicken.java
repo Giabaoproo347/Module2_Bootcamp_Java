@@ -1,6 +1,6 @@
-public class Chicken extends Animal implements Edible {
+public class Chicken implements Edible, Animal {
     @Override
-    String makeSound() {
+    public String makeSound() {
         return " Chicken: cluk cluk";
     }
 

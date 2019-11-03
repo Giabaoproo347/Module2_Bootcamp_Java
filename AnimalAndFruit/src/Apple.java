@@ -1,6 +1,12 @@
-public class Apple extends Fruit implements Edible {
+public class Apple implements Fruit, Edible {
+
+    @Override
+   public String isGreen() {
+        return "Apple: red";
+    }
+
     @Override
     public String howToEat() {
-        return "Apple ăn được";
+        return "Apple: ăn được";
     }
 }

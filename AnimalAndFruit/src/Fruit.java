@@ -1,3 +1,3 @@
-public abstract class Fruit {
-
+public interface Fruit {
+    abstract String isGreen();
 }
