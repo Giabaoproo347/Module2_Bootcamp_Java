@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe29ac25-83e2-4dce-9597-4f5182ede758" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HienThi100SoNguyenTo/src/Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HienThi100SoNguyenTo/src/PrimeNumber100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trien-khai-interface-cho-cac-lop-hinh-hoc/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trien-khai-interface-cho-cac-lop-hinh-hoc/src/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trien-khai-interface-cho-cac-lop-hinh-hoc/src/ComparableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trien-khai-interface-cho-cac-lop-hinh-hoc/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trien-khai-interface-cho-cac-lop-hinh-hoc/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trien-khai-interface-cho-cac-lop-hinh-hoc/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trien-khai-interface-cho-cac-lop-hinh-hoc/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +37,7 @@
   <component name="ProjectId" id="1T5Urg9g4CggZBv3zygHcZMERal" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
@@ -63,7 +70,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
