@@ -15,7 +15,7 @@ public class SimpleLogin extends HttpServlet {
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
 
-        if("admin".equals(username) && "admin".equals(password)) {
+        if("admin".equals(username) && "pass".equals(password)) {
             writer.println("<h1>Welcome "+username+" to website</h1>");
         } else{
             writer.println("<h1>Login Error</h1>");
