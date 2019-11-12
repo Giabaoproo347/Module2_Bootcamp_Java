@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
+import java.nio.charset.StandardCharsets;
 
 @WebServlet(name = "TranslateSimple", urlPatterns = "/translate")
 public class TranslateSimple extends HttpServlet {
@@ -17,12 +18,13 @@ public class TranslateSimple extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Map<String, String> dictionary = new HashMap<>();
-        dictionary.put("hello", "Xin chào");
+        dictionary.put("hello", "Xin chỗ");
         dictionary.put("how", "Thế nào");
         dictionary.put("book", "Quyển vở");
         dictionary.put("computer", "Máy tính");
 
         String search = request.getParameter("txtSearch");
+        request.setCharacterEncoding("utf_8");
 
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
