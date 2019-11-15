@@ -8,11 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="48b81ecb-717d-43a6-9980-76f468851e72" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_spec_1_2_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/DemoJSPnJSTL_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/DemoJSPnJSTL_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DemoJSPnJSTL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DemoJSPnJSTL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DemoJSPnJSTL_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DemoJSPnJSTL_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,6 +172,8 @@
       <workItem from="1573614022059" duration="4285000" />
       <workItem from="1573628535509" duration="1202000" />
       <workItem from="1573630051090" duration="172000" />
+      <workItem from="1573724625275" duration="276000" />
+      <workItem from="1573787352690" duration="12000" />
     </task>
     <servers />
   </component>
