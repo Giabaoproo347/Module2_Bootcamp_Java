@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Customer_Servlet_JSP:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Customer_Servlet_JSP_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Customer_Servlet_JSP/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Customer_Servlet_JSP" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="taglibsimpl" />
+          <element id="library" level="project" name="taglibsimpl1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
