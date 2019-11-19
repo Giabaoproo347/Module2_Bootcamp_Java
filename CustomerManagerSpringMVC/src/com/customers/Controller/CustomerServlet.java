@@ -6,9 +6,10 @@ import com.customers.Service.ICustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import javax.jws.WebParam;
 
 @Controller
 public class CustomerServlet {
@@ -21,18 +22,43 @@ public class CustomerServlet {
         return "home";
     }
 
-    @GetMapping("/add")
-    public String add (@RequestParam int id, String name, String email, String address, Model model) {
-        Customer customer = new Customer(id,name,email,address);
-        model.addAttribute("customers", customer);
+    @GetMapping("/formAdd")
+    public String showAdd () {
         return "add";
     }
 
-    @GetMapping("/customer/delete")
-    public String delete (@RequestParam int id, Model model) {
-       model.addAttribute("customers", customerService.delete(id));
-        return "home";
+    @PostMapping("/add")
+    public String add (@ModelAttribute Customer customer) {
+        customerService.add(customer);
+//        model.addAttribute("customers", customer);
+        return "redirect:/home";
+
     }
 
 
+   @GetMapping("/formDelete")
+    public String showDelete (int id, Model model) {
+        Customer customer = customerService.findById(id);
+        model.addAttribute("customers", customer );
+        return "delete";
+    }
+
+    @PostMapping ("/delete")
+    public String delete (int id ) {
+        customerService.delete(id);
+        return "redirect:/home";
+    }
+
+
+    @GetMapping ("/formUpdate")
+    public String showUpdate () {
+        return "update";
+    }
+
+    @PostMapping ("/update")
+    public String update (@ModelAttribute int id, Customer customer) {
+        customerService.update(id,customer);
+        return "redirect:/home";
+
+    }
 }

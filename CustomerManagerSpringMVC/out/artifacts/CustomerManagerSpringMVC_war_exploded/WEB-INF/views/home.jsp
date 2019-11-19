@@ -7,7 +7,7 @@
 <body>
     <h1>Customer Manager</h1>
     <p>
-        <a href="/add">Create a new customer</a>
+        <a href="/formAdd">Create a new customer</a>
     </p>
   <table border="1">
       <tr>
@@ -20,8 +20,8 @@
            <td>${customer.getName()}</td>
            <td>${customer.getEmail()}</td>
            <td>${customer.getAddress()}</td>
-           <td><a href="/customer/edit&id=${customers.getId()}">edit</a></td>
-           <td><a href="/customer/delete&id=${customers.getId()}">delete</a></td>
+           <td><a href="/formUpdate">edit</a></td>
+           <td><a href="/formDelete">delete</a></td>
        </tr>
    </c:forEach>
   </table>
