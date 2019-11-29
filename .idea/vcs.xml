@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Currency-Converter---Spring-MVC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TachMethod" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TachVariable" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WBD_Demo-JSTL-Product" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pf-java-comparator" vcs="Git" />
+  </component>
+</project>

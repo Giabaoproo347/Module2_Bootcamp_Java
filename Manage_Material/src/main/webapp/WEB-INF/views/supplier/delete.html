@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Supplier</title>
+</head>
+<body>
+<h1>Delete Supplier</h1>
+<h2>Are you sure?</h2>
+<p>
+    <a href="/list-supplier">Back to Supplier List</a>
+</p>
+<form th:action="@{/delete-supplier}" th:object="${suppliers}" method="post">
+    <input th:type="hidden" name="supplier_id" th:field="*{supplier_id}">
+    <table>
+        <tr>
+            <td>Supplier Name:</td>
+            <td th:text="${suppliers.supplier_name}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Delete Supplier"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
